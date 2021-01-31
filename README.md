@@ -4,10 +4,12 @@
 
 All code is under SchoolDistrictScoresCalculator folder
 
-[ClassGradesFileGenerator](SchoolDistrictScoresCalculator/ClassGradesFileGenerator.cs) - Transforms input files to data models
+[ClassGradesFileProcessor](SchoolDistrictScoresCalculator/ClassGradesFileProcessor.cs) - Transforms input files to data models
 
-[ClassGradesFileProcessor](SchoolDistrictScoresCalculator/ClassGradesFileProcessor.cs) - Computes stats like average, median, percentile for class and school
+[GradesCalculator](SchoolDistrictScoresCalculator/GradesCalculator.cs) - Computes stats like average, median, percentile for class and school
 
-[GradesCalculator](SchoolDistrictScoresCalculator/GradesCalculator.cs) - Generates output bases on the stats
+[ClassGradesFileGenerator](SchoolDistrictScoresCalculator/ClassGradesFileGenerator.cs)  - Generates output bases on the stats
+
+[Program](SchoolDistrictScoresCalculator/Program.cs)  - Uses Processor, Calculator, Generator to achieve the desired result
 
 [DataModels](SchoolDistrictScoresCalculator/DataModels) -  - Folders contains all the data models used
