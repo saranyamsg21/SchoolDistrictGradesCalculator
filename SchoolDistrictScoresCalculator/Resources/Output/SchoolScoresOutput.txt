@@ -1,0 +1,40 @@
+----- School level data ----
+
+---------------------------
+Highest performing class considering averages only: ClassB
+(new) Highest performing student across all classes: Tammy Cunningham
+---------------------------
+Students Average across all classes: 79.9
+// In V2 school level median and percentile will be available.
+
+----- Class level data ----
+
+Class Name: ClassA
+Class Average: 79.4
+(new) Class Median: 75
+(new) Class top student: Rena Hayden
+Total students: 10
+Total students considered for average: 9
+Ignored students: Edith Adkins
+
+
+
+Class Name: ClassB
+Class Average: 80.2
+(new) Class Median: 79.5
+(new) Class top student: Tammy Cunningham
+Total students: 10
+Total students considered for average: 10
+Ignored students: 
+
+
+
+Class Name: ClassC
+Class Average: 80.1
+(new) Class Median: 82
+(new) Class top student: Myrtle Ingram
+Total students: 10
+Total students considered for average: 10
+Ignored students: 
+
+
