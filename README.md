@@ -1,14 +1,13 @@
 # SchoolDistrictGradesCalculator
 
-**Output file is located in SchoolDistrictScoresCalculator\Resources\Output\SchoolScoresOutput.txt**
-
+[Output File](SchoolDistrictScoresCalculator/Resources/Output/SchoolScoresOutput.txt) 
 
 All code is under SchoolDistrictScoresCalculator folder
 
-**ClassGradesFileGenerator.cs** - Transforms input files to data models
+[ClassGradesFileGenerator](SchoolDistrictScoresCalculator/ClassGradesFileGenerator.cs) - Transforms input files to data models
 
-**ClassGradesFileProcessor.cs** - Computes average, median and other stats for classes and school
+[ClassGradesFileProcessor](SchoolDistrictScoresCalculator/ClassGradesFileProcessor.cs) - Computes stats like average, median, percentile for class and school
 
-**GradesCalculator.cs** - Transforms computes data to an output file
+[GradesCalculator](SchoolDistrictScoresCalculator/GradesCalculator.cs) - Generates output bases on the stats
 
-**DataModels** - Folders contains all the data models used
+[DataModels](SchoolDistrictScoresCalculator/DataModels) -  - Folders contains all the data models used
